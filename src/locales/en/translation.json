@@ -1,0 +1,44 @@
+{
+  "footer": {
+    "a": "Find a store",
+    "b": "Find the nearest store",
+    "c": "Buy remotely",
+    "d": "Visit the nearest store directly (Zalo or call)",
+    "e": "Payment methods",
+    "f": "Call to buy: 0999 999 xxx (8:00 a.m. - 10:00 p.m.)",
+    "g": "Call to complain: 0999 999 xxx (8:00 a.m. - 9:30 p.m.)",
+    "h": "Warranty call: 0999 999 xxx (8:00 a.m. - 9:00 p.m.)",
+    "i": "Warranty service partner",
+    "k": "Phone - Computer",
+    "l": "Buy and pay online",
+    "m": "Buy online in installments",
+    "n": "Look up order information",
+    "o": "Check Smember points",
+    "p": "Look up warranty information",
+    "q": "Look up electronic invoices",
+    "r": "Genuine warranty center",
+    "s": "Regulations on data backup",
+    "v": "Phone warranty service",
+    "aa": "Operating regulations",
+    "bb": "Warranty Policy",
+    "cc": "Business Application",
+    "dd": "Phone warranty service",
+    "ee": "Incentives from partners",
+    "ff": "Recruitment"
+  },
+  "header": {
+    "a": "Call to buy",
+    "c": "Look up orders"
+  },
+  "menu": { "a": "Information", "b": "Order History", "c": "Logout" },
+  "support": {
+    "a": "FREE CONSULTATION",
+    "b": "From 8-24H: 19008198",
+    "c": "0% INTEREST INSTALLMENT",
+    "d": "Online - At Home",
+    "e": "Exchange or refund",
+    "f": "1 for 1 exchange up to 45 days",
+    "g": "UPGRADE YOUR OLD DEVICE",
+    "h": "Discount up to 2 million"
+  }
+}

@@ -1,0 +1,14 @@
+.offer {
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-item {
+    width: calc(25% - 10px);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,79 @@
+.header {
+  &-top {
+    background-color: #fed863;
+    padding-top: 5px;
+    min-width: 45px;
+  }
+  &-content {
+    background-color: #ffd600;
+    padding-block: 8px;
+  }
+  &-nav {
+    display: flex;
+    align-items: center;
+  }
+  &-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #535353;
+    border-radius: 6px;
+    margin-right: 35px;
+  }
+  &-logo {
+    margin-right: 101px;
+  }
+  &-input {
+    width: 50%;
+    margin-right: 30px;
+  }
+  &-list {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+  }
+  &-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    &__icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 25px;
+      height: 25px;
+    }
+    &__text {
+      color: rgba(0, 0, 0, 0.81);
+      min-width: 80px;
+      & > span {
+        font-size: 11px;
+        font-weight: 300;
+        line-height: 16.8px;
+      }
+      &--bold {
+        font-size: 11px !important;
+        font-weight: 800 !important;
+      }
+    }
+  }
+  &-cart {
+    margin-left: auto;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.search-logo {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}

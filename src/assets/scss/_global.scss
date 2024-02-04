@@ -1,0 +1,93 @@
+body {
+  background-color: var(--body-bg);
+  font-family: var(--primary-font) !important;
+  font-weight: 400;
+}
+.wrapper {
+  max-width: var(--body-size);
+  margin: 0 auto;
+}
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+}
+
+.text-primary {
+  color: var(--primary-color);
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.button {
+  display: inline-block;
+  color: white;
+  border-radius: 10px;
+  line-height: 1.5;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  &--primary {
+    background-color: var(--primary-color);
+  }
+}
+.heading {
+  font-weight: 600;
+  color: var(--gray1e);
+  &--big {
+    font-size: 50px;
+    line-height: calc(63 / 50);
+  }
+  &--normal {
+    font-size: 40px;
+    line-height: calc(50 / 40);
+  }
+  &--small {
+    font-size: 22px;
+    line-height: calc(32 / 22);
+  }
+}
+a {
+  text-decoration: none;
+}
+
+.slick-prev {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0 100px 100px 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.slick-next {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0 100px 100px 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  animation: stuckMoveDown 0.6s;
+}
+
+@keyframes stuckMoveDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.hide-focus:focus-visible {
+  outline: none;
+}
